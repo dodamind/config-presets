@@ -59,6 +59,13 @@ module.exports = {
   // ...
 }
 ```
+Or to your `package.json`:
+
+```json
+{
+  "prettier": "@dodamind/preset-prettier"
+}
+```
 
 ### TypeScript
 
