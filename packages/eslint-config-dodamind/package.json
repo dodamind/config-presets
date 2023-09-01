@@ -1,0 +1,36 @@
+{
+  "name": "@dodamind/eslint-config-dodamind",
+  "version": "1.0.0",
+  "description": "ESLint config preset for dodamind projects",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dodamind/config-presets.git",
+    "directory": "packages/eslint-config-dodamind"
+  },
+  "bugs": {
+    "url": "https://github.com/dodamind/config-presets/issues"
+  },
+  "homepage": "https://github.com/dodamind/config-presets#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "baekilda",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.48.0"
+  }
+}

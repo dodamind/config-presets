@@ -1,0 +1,35 @@
+{
+  "name": "presets",
+  "version": "1.0.0",
+  "description": "presets for eslint, tsconfig, prettier",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodamind/config-presets.git"
+  },
+  "keywords": [
+    "eslint",
+    "tsconfig",
+    "prettier"
+  ],
+  "author": "baekilda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dodamind/config-presets/issues"
+  },
+  "homepage": "https://github.com/dodamind/config-presets#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "eslint": "^8.48.0",
+    "husky": "^8.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

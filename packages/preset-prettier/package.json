@@ -1,0 +1,30 @@
+{
+  "name": "@dodamind/preset-prettier",
+  "version": "1.0.0",
+  "description": "Prettier preset for dodamind projects",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dodamind/config-presets.git",
+    "directory": "packages/preset-prettier"
+  },
+  "bugs": {
+    "url": "https://github.com/dodamind/config-presets/issues"
+  },
+  "homepage": "https://github.com/dodamind/config-presets#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "baekilda",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "main": "index.js"
+}

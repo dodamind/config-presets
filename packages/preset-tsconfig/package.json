@@ -1,0 +1,29 @@
+{
+  "name": "@dodamind/preset-tsconfig",
+  "version": "1.0.0",
+  "description": "tsconfig.json preset for dodamind projects",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dodamind/config-presets.git",
+    "directory": "packages/preset-tsconfig"
+  },
+  "bugs": {
+    "url": "https://github.com/dodamind/config-presets/issues"
+  },
+  "homepage": "https://github.com/dodamind/config-presets#readme",
+  "files": [
+    "tsconfig.json",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript"
+  ],
+  "author": "baekilda",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  }
+}
