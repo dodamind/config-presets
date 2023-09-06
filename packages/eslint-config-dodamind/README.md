@@ -9,10 +9,12 @@ npm install @dodamind/eslint-config-dodamind --save-dev
 ```
 ## Usage
 ### .eslintrc.cjs
-```js
+```diff
 module.exports = {
-  extends: [ 
-    '@dodamind/eslint-config-dodamind',
+  extends: [
+-   'eslint:recommended',
+-   'plugin:@typescript-eslint/recommended',
++   '@dodamind/eslint-config-dodamind',
     // ...
   ],
   rules: {
