@@ -1,6 +1,6 @@
 {
   "name": "@dodamind/eslint-config-dodamind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config preset for dodamind projects",
   "publishConfig": {
     "access": "public"
