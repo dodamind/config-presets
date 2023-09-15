@@ -11,23 +11,32 @@ This repository contains a collection of configuration presets for various devel
 
 ## Installation
 
-You can install each package individually as a dev dependency using npm:
+You can install each package individually as a dev dependency using bun or npm:
 
 For ESLint:
 
-```sh
+```shell
+bun add @dodamind/eslint-config-dodamind --dev
+
+# or using npm
 npm install @dodamind/eslint-config-dodamind --save-dev
 ```
 
 For Prettier:
 
-```sh
+```shell
+bun add @dodamind/preset-prettier --dev
+
+# or using npm
 npm install @dodamind/preset-prettier --save-dev
 ```
 
 For TypeScript:
 
-```sh
+```shell
+bun add @dodamind/preset-tsconfig --dev
+
+# or using npm
 npm install @dodamind/preset-tsconfig --save-dev
 ```
 
@@ -58,7 +67,6 @@ Add to your `.prettierrc.cjs`:
 ```js
 module.exports = {
   ...require('@dodamind/preset-prettier'),
-  // ...
 }
 ```
 Or to your `package.json`:
@@ -75,8 +83,7 @@ Extend your `tsconfig.json`:
 
 ```json
 {
-  "extends": ["@dodamind/preset-tsconfig"],
-  // ...
+  "extends": ["@dodamind/preset-tsconfig"]
 }
 ```
 

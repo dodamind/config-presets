@@ -5,6 +5,9 @@ tsconfig.json preset for dodamind projects.
 ## Install
 
 ```sh
+bun add @dodamind/preset-tsconfig --dev
+
+# or using npm
 npm install @dodamind/preset-tsconfig --save-dev
 ```
 ## Usage
@@ -12,6 +15,5 @@ npm install @dodamind/preset-tsconfig --save-dev
 ```json
 {
   "extends": ["@dodamind/preset-tsconfig"],
-  // ...
 }
 ```

@@ -5,6 +5,9 @@ ESLint preset for dodamind projects.
 ## Install
 
 ```sh
+bun add @dodamind/eslint-config-dodamind --dev
+
+# or using npm
 npm install @dodamind/eslint-config-dodamind --save-dev
 ```
 ## Usage
