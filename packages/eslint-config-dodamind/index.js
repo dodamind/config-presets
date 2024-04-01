@@ -142,6 +142,7 @@ module.exports = {
     // unicorn
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/better-regex': 'off',
+    'unicorn/consistent-destructuring': 'error',
     'unicorn/filename-case': 'off',
     'unicorn/import-style': 'off',
     'unicorn/no-document-cookie': 'off',
