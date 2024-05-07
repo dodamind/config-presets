@@ -1,6 +1,6 @@
 {
   "name": "@dodamind/eslint-config-dodamind",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ESLint config preset for dodamind projects",
   "publishConfig": {
     "access": "public"
@@ -25,12 +25,14 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unicorn": "^49.0.0"
   },
   "peerDependencies": {
     "eslint": "^8.48.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0"
   }
 }
