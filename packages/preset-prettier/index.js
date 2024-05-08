@@ -12,5 +12,5 @@ module.exports = {
   arrowParens: 'always',
   printWidth: 80,
   endOfLine: 'lf',
-  embeddedLanguageFormatting: 'auto'
-}
+  embeddedLanguageFormatting: 'auto',
+};
