@@ -1,6 +1,6 @@
 {
   "name": "presets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "presets for eslint, tsconfig, prettier",
   "private": true,
   "repository": {
