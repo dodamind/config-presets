@@ -44,21 +44,24 @@ npm install @dodamind/preset-tsconfig --save-dev
 
 ### ESLint
 
-Add to your `.eslintrc.cjs`:
+Create `eslint.config.mjs` (ESLint v9+ flat config):
 
-```diff
-module.exports = {
-  extends: [
--   'eslint:recommended',
--   'plugin:@typescript-eslint/recommended',
-+   '@dodamind/eslint-config-dodamind',
-    // ...
-  ],
-  rules: {
-    // ...
-  },
-}
+```js
+import dodamind from '@dodamind/eslint-config-dodamind';
+
+export default [
+  ...dodamind,
+  // overrides here
+];
 ```
+
+If your project uses `"type": "module"`, you can use `eslint.config.js` instead of
+`eslint.config.mjs`.
+
+This preset requires ESLint `>= 9.20.0`.
+
+See package release notes:
+[`packages/eslint-config-dodamind/CHANGELOG.md`](./packages/eslint-config-dodamind/CHANGELOG.md).
 
 ### Prettier
 
@@ -90,4 +93,3 @@ Extend your `tsconfig.json`:
 ## License
 
 See the [LICENSE](./LICENSE) file for details.
-
